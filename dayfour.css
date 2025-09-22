@@ -149,6 +149,7 @@ li span:hover{
 @media (max-width: 452px) {
     .heading{
     width: 90%;
+    font-size: 19px;
     }
     .input{
         font-size: 13px;
@@ -160,7 +161,11 @@ li span:hover{
     }
     .heading{
     width: 90%;
+    font-size: 17px;
     }
+    .listcontainer li{
+    font-size: 24px;
+}
 }
 @media (max-width: 380px) {
     .heading{
@@ -171,7 +176,7 @@ li span:hover{
     font-size: 10px;
     }
     .listcontainer li{
-    font-size: 22px;
+    font-size: 19px;
     }
     .inputdiv button{
     padding-top: 9px;
@@ -189,7 +194,7 @@ li span:hover{
     width: 13%;
     }
     .listcontainer li{
-    font-size: 22px;
+    font-size: 19px;
     }
     input{
         font-size: 12px;
