@@ -61,6 +61,7 @@
     padding: 10px;
     border: none;
     outline: none;
+    font-size: 18px;
 }
 .listcontainer{
     padding: 20px;
@@ -94,7 +95,7 @@ ul li.checked::before{
 }
 li span{
     position: absolute;
-    top: 5px;
+    top: 7%;
     right: 0;
     width: 40px;
     height: 40px;
@@ -137,6 +138,9 @@ li span:hover{
     .todo-list{
     width: 80%;
     }
+    .input{
+        font-size: 16px;
+    }
     .inputdiv button{
         width: 40%;
     font-size: 12px;
@@ -145,6 +149,9 @@ li span:hover{
 @media (max-width: 452px) {
     .heading{
     width: 90%;
+    }
+    .input{
+        font-size: 13px;
     }
 }
 @media (max-width: 416px) {
@@ -172,5 +179,22 @@ li span:hover{
     }  
     .input{
     padding: 8px;
+}
+}
+@media (max-width: 286px) {
+    .heading{
+    font-size: 13px;
+    }
+    .heading img{
+    width: 13%;
+    }
+    .listcontainer li{
+    font-size: 22px;
+    }
+    input{
+        font-size: 12px;
+    }
+    .inputdiv button{
+    font-size: 10px;
 }
 }
